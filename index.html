@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maître Mohamed Abdallah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+    .hero { background: url('https://images.unsplash.com/photo-1588776814546-ec7e68d9fe4e') center/cover no-repeat; color: white; height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+    .section-title { margin: 40px 0 20px; text-align: center; }
+    .icon-box i { font-size: 3rem; margin-bottom: 10px; color: #0d6efd; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">Maître Mohamed Abdallah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#appointment">Rendez-vous</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+  <div class="container">
+    <h1 class="display-4">Services juridiques fiables au Canada</h1>
+    <p><a href="#appointment" class="btn btn-primary btn-lg mt-3">Prendre rendez-vous</a></p>
+  </div>
+</header>
+
+<!-- Services Section -->
+<section id="services" class="container py-5">
+  <h2 class="section-title">Services</h2>
+  <div class="row text-center">
+    <div class="col-md-4 icon-box">
+      <i class="bi bi-chat-dots"></i>
+      <h4>Conseils juridiques</h4>
+      <p>Consultations claires et professionnelles pour toutes vos questions légales.</p>
+    </div>
+    <div class="col-md-4 icon-box">
+      <i class="bi bi-file-earmark-text"></i>
+      <h4>Rédaction de contrats</h4>
+      <p>Contrats personnalisés et conformes aux lois canadiennes.</p>
+    </div>
+    <div class="col-md-4 icon-box">
+      <i class="bi bi-bank"></i>
+      <h4>Représentation légale</h4>
+      <p>Défense de vos intérêts devant les tribunaux.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">À propos</h2>
+    <p>Maître Mohamed Abdallah est un avocat expérimenté avec plus de 10 ans d'expertise en droit civil et commercial au Québec. Diplômé de l’Université de Montréal et membre de l’Ordre des avocats du Canada.</p>
+  </div>
+</section>
+
+<!-- Appointment Section -->
+<section id="appointment" class="container py-5">
+  <h2 class="section-title">Prendre rendez-vous</h2>
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Nom complet</label>
+      <input type="text" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Courriel</label>
+      <input type="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Service souhaité</label>
+      <select class="form-select">
+        <option>Conseils juridiques</option>
+        <option>Rédaction de contrats</option>
+        <option>Représentation légale</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Date préférée</label>
+      <input type="date" class="form-control">
+    </div>
+    <button class="btn btn-primary">Envoyer</button>
+  </form>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: contact@cabinetjuridique.ca</p>
+    <p>Téléphone: +1 514-123-4567</p>
+    <p>Adresse: 123 Rue Sainte-Catherine, Montréal, QC</p>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="3"></textarea>
+      </div>
+      <button class="btn btn-secondary">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2025 Maître Mohamed Abdallah. Tous droits réservés.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
